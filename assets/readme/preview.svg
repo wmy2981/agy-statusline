@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="394" viewBox="0 0 1200 394" role="img" aria-labelledby="exTitle exDesc">
+  <title id="exTitle">agy-statusline running example</title>
+  <desc id="exDesc">A dark terminal panel showing the five statusline rows: conversation title "agy-statusline"; the path '/Users/wmy/agy-statusline', branch [main] and remote gh:wmy2981/agy-statusline; a 38% context window bar followed by Gemini 4 Neon (High); a diff line reading +218 -47; and a quota line reading quota(gemini): 5h 28% (2h45m) and 7d 62% (6d11h).</desc>
+
+  <rect width="1200" height="394" rx="24" fill="#080A0E"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="392.5" rx="23.25" fill="none" stroke="#1C2430" stroke-width="1.5"/>
+
+  <rect x="48" y="48" width="1104" height="292" rx="14" fill="#0D1117" stroke="#262D3A" stroke-width="1.5"/>
+
+  <!-- window chrome -->
+  <rect x="48" y="48" width="1104" height="38" rx="14" fill="#161B22"/>
+  <rect x="48" y="68" width="1104" height="18" fill="#161B22"/>
+  <line x1="48" y1="86" x2="1152" y2="86" stroke="#262D3A" stroke-width="1"/>
+  <circle cx="76" cy="67" r="5.5" fill="#3A4453"/>
+  <circle cx="96" cy="67" r="5.5" fill="#3A4453"/>
+  <circle cx="116" cy="67" r="5.5" fill="#3A4453"/>
+  <text x="142" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" fill="#6E7681">Antigravity CLI</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="24" xml:space="preserve">
+    <!-- line 1: conversation title -->
+    <text x="88" y="130" font-weight="700" fill="#8B949E">agy-statusline</text>
+
+    <!-- line 2: path, branch, remote repo -->
+    <text x="88" y="174"><tspan fill="#22D3EE">'/Users/wmy/agy-statusline'</tspan>  <tspan fill="#7AA2F7">[main]</tspan>  <tspan fill="#FFAF00">gh:wmy2981/agy-statusline</tspan></text>
+
+    <!-- line 3: context bar, model -->
+    <text x="88" y="218"><tspan fill="#3FB950">[████████░░░░░░░░░░░░] 38%</tspan>  <tspan fill="#C678DD">Gemini 4 Neon (High)</tspan></text>
+
+    <!-- line 4: code changes -->
+    <text x="88" y="262"><tspan fill="#8B949E">diff:</tspan>  <tspan fill="#5FD700">+218</tspan>  <tspan fill="#D70000">-47</tspan></text>
+
+    <!-- line 5: subscription quota -->
+    <text x="88" y="306"><tspan fill="#8B949E">quota(gemini):</tspan>  <tspan fill="#8B949E">5h</tspan> <tspan fill="#3FB950">[██░░░░░░] 28%</tspan> <tspan fill="#8B949E">(2h45m)</tspan>  <tspan fill="#8B949E">7d</tspan> <tspan fill="#E3B341">[█████░░░] 62%</tspan> <tspan fill="#8B949E">(6d11h)</tspan></text>
+  </g>
+</svg>
